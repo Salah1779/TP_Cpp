@@ -130,12 +130,16 @@
     <ClCompile Include="Cercle.cpp" />
     <ClCompile Include="Complexe.cpp" />
     <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Student.cpp" />
     <ClCompile Include="TP_Cpp.cpp" />
+    <ClCompile Include="University.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cercle.h" />
     <ClInclude Include="Complexe.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="University.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

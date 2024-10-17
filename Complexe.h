@@ -19,7 +19,7 @@ public:
 	Complexe operator*(double) const;
 	bool operator==(const Complexe&) const;
 	Complexe& operator/(const Complexe&) ;
-	
+	Complexe& operator/(const double);
 
 
 };

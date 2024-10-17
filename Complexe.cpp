@@ -74,7 +74,7 @@ Complexe& Complexe:: operator/(const Complexe& z) {
 
 	if (z.Img == 0 && z.Re == 0) {
 	  cout << "Erreur ! , Devision par ZERO.." << endl;
-	  exit(0);
+	  
 	}
 	else if (z.Img == 0) {
 		this->Re /= z.Re;
@@ -88,6 +88,19 @@ Complexe& Complexe:: operator/(const Complexe& z) {
 		this->Img = num.Img / denom;
 	}
 
+	return *this;
+}
+
+Complexe& Complexe::operator/(const double r)
+{
+	if (r == 0) {
+		cout << "Erreur ! , Devision par ZERO.." << endl;
+	
+	}
+	else {
+		this->Re /= r;
+		this->Img /= r;
+	}
 	return *this;
 }
 
